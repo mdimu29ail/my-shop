@@ -16,7 +16,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <div className="relative w-full h-64 md:h-96 overflow-hidden rounded-lg bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-100">
+    <div className="relative w-full h-64 md:h-96 overflow-hidden rounded-lg ">
       {images.map((img, index) => (
         <div
           key={index}
