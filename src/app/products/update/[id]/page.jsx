@@ -104,7 +104,7 @@ export default function UpdateProduct() {
 
       <form
         onSubmit={handleUpdate}
-        className="bg-white p-6 rounded shadow-md space-y-4"
+        className="bg-[#F8EFBA] p-6 rounded shadow-md space-y-4"
       >
         {/* Name & Brand */}
         <div>

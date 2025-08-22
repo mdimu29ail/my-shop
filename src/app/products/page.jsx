@@ -9,8 +9,8 @@ export default async function ProductsPage() {
   const products = await db.collection('products').find({}).toArray();
 
   return (
-    <div className="mx-auto p-8">
-      <h1 className="text-3xl text-center font-bold mb-6 text-orange-500">
+    <div className="mx-auto p-8 bg-[#F8EFBA] text-black">
+      <h1 className="text-3xl text-center font-bold mb-6 text-orange-500 ">
         Products
       </h1>
 

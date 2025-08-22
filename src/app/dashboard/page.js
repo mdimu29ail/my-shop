@@ -31,7 +31,7 @@ export default function Dashboard() {
     <div className="flex min-h-screen  z-20">
       {/* Sidebar */}
       <aside
-        className={`bg-white shadow-md p-6 flex flex-col fixed top-0 left-0 h-full transition-transform duration-300 z-20
+        className={`bg-[#F8EFBA] shadow-md p-6 flex flex-col fixed top-0 left-0 h-full transition-transform duration-300 z-20
         ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         } md:translate-x-0 w-64`}
@@ -71,7 +71,7 @@ export default function Dashboard() {
       </aside>
 
       {/* Hamburger Menu for Mobile */}
-      <div className="md:hidden fixed top-4 left-4 z-60 bg-white">
+      <div className="md:hidden fixed top-4 left-4 z-60 bg-[#F8EFBA]">
         <button
           onClick={() => setSidebarOpen(!sidebarOpen)}
           className="p-2 bg-orange-500  rounded"
@@ -81,7 +81,7 @@ export default function Dashboard() {
       </div>
 
       {/* Main content */}
-      <main className="flex-1 p-8 ml-0 md:ml-64 overflow-auto w-full">
+      <main className="flex-1 p-8 ml-0 md:ml-64 overflow-auto w-full bg-[#F8EFBA] text-black">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className=" p-6 rounded-lg shadow hover:shadow-lg">
             <h2 className="text-xl font-semibold">Products</h2>

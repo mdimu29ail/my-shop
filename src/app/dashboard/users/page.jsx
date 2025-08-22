@@ -8,7 +8,7 @@ export default function UserProfile() {
 
   return (
     <div className="flex justify-center items-center min-h-screen ">
-      <div className="bg-white p-8 rounded-3xl shadow-2xl max-w-md w-full text-center transform transition-all duration-500 hover:scale-105 hover:shadow-orange-400">
+      <div className="bg-[#F8EFBA] p-8 rounded-3xl shadow-2xl max-w-md w-full text-center transform transition-all duration-500 hover:scale-105 hover:shadow-orange-400">
         {/* Profile Image */}
         <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gradient-to-tr from-orange-400 to-orange-600 shadow-lg transition-transform duration-500 hover:scale-110">
           <Image

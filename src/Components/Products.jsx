@@ -12,7 +12,7 @@ export default function Products() {
   const displayProducts = seeAll ? products : products.slice(0, 8);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="bg-white text-black mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center">
         Product List
       </h2>

@@ -60,7 +60,7 @@ export default function OrdersPage() {
   if (!session) return <p>Please login to see your orders.</p>;
 
   return (
-    <div className="max-w-7xl mx-auto p-8">
+    <div className=" mx-auto p-8 bg-[#F8EFBA] text-black">
       <h1 className="text-3xl font-bold mb-6 text-orange-500">My Orders</h1>
       {orders.length === 0 ? (
         <p>No orders yet.</p>

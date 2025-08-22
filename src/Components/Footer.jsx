@@ -4,17 +4,10 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="border-t mt-12 py-6 px-8 flex flex-col md:flex-row items-center justify-between">
+    <footer className="border-t  py-6 px-8 flex flex-col md:flex-row items-center justify-between bg-[#F8EFBA] text-black">
       {/* Logo */}
       <div className="flex items-center mb-4 md:mb-0">
-        <Image
-          src="/logo.png" // replace with your logo path
-          alt="MyShop Logo"
-          width={50}
-          height={50}
-          className="mr-3"
-        />
-        <span className="font-semibold text-lg">MyShop</span>
+        <span className="font-semibold text-lg text-amber-600">MyShop</span>
       </div>
 
       {/* Links */}

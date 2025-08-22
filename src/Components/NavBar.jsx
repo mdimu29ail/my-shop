@@ -50,7 +50,7 @@ export default function Navbar() {
                 <span className="mr-3">{session.user.name}</span>
                 <button
                   onClick={() => signOut({ callbackUrl: '/' })}
-                  className="bg-white text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
+                  className="bg-[#F8EFBA] text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
                 >
                   Logout
                 </button>
@@ -59,7 +59,7 @@ export default function Navbar() {
               <>
                 <Link
                   href="/login"
-                  className="bg-white text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
+                  className="bg-[#F8EFBA] text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
                 >
                   Login
                 </Link>
@@ -99,7 +99,7 @@ export default function Navbar() {
           {session ? (
             <button
               onClick={() => signOut({ callbackUrl: '/' })}
-              className="w-full bg-white text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
+              className="w-full bg-[#F8EFBA] text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
             >
               Logout
             </button>
@@ -107,7 +107,7 @@ export default function Navbar() {
             <div className="flex flex-col gap-2">
               <Link
                 href="/login"
-                className="block bg-white text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
+                className="block bg-[#F8EFBA] text-orange-500 px-3 py-1 rounded hover:bg-gray-100"
               >
                 Login
               </Link>

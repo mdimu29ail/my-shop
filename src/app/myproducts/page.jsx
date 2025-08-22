@@ -76,7 +76,7 @@ export default function MyProductsPage() {
     );
 
   return (
-    <div className="max-w-7xl mx-auto p-8">
+    <div className=" mx-auto p-8 bg-[#F8EFBA] text-black">
       <h1 className="text-4xl font-bold mb-8 text-center text-orange-500">
         My Products
       </h1>

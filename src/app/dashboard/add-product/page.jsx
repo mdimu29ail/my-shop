@@ -85,7 +85,7 @@ export default function AddProduct() {
   };
 
   return (
-    <div className="p-8 rounded-2xl max-w-3xl mx-auto bg-white shadow-2xl shadow-amber-300">
+    <div className="p-8 rounded-2xl max-w-3xl mx-auto bg-[#F8EFBA] shadow-2xl shadow-amber-300">
       <h2 className="text-2xl text-orange-500 font-bold mb-6 text-center">
         Add Product
       </h2>

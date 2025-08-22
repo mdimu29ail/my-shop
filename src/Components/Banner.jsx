@@ -39,7 +39,7 @@ export default function Banner() {
           <span
             key={idx}
             className={`w-3 h-3 rounded-full cursor-pointer transition-colors ${
-              idx === current ? 'bg-orange-500' : 'bg-white/50'
+              idx === current ? 'bg-orange-500' : 'bg-[#F8EFBA]/50'
             }`}
             onClick={() => setCurrent(idx)}
           ></span>
