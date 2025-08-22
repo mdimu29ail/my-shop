@@ -45,7 +45,7 @@ export default function Register() {
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             placeholder="Name"
-            className="w-full px-4 py-2 border rounded"
+            className="w-full px-4 py-2 border rounded focus:ring-orange-400 text-black"
             value={name}
             onChange={e => setName(e.target.value)}
             required
@@ -53,7 +53,7 @@ export default function Register() {
           <input
             type="email"
             placeholder="Email"
-            className="w-full px-4 py-2 border rounded"
+            className="w-full px-4 py-2 border rounded focus:ring-orange-400 text-black"
             value={email}
             onChange={e => setEmail(e.target.value)}
             required
@@ -61,7 +61,7 @@ export default function Register() {
           <input
             type="password"
             placeholder="Password"
-            className="w-full px-4 py-2 border rounded"
+            className="w-full px-4 py-2 border rounded focus:ring-orange-400 text-black"
             value={password}
             onChange={e => setPassword(e.target.value)}
             required
