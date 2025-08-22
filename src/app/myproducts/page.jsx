@@ -76,7 +76,7 @@ export default function MyProductsPage() {
     );
 
   return (
-    <div className=" mx-auto p-8 bg-[#F8EFBA] text-black">
+    <div className=" mx-auto p-8 bg-[#F8EFBA] min-h-screen text-black">
       <h1 className="text-4xl font-bold mb-8 text-center text-orange-500">
         My Products
       </h1>
