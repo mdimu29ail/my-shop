@@ -1,6 +1,6 @@
-import Banner from '@/Components/Banner';
-import Footer from '@/Components/Footer';
-import Products from '@/components/Products';
+import Banner from '@/components/banner';
+import Footer from '@/components/footer';
+import Products from '@/components/products';
 
 export default function Homepage() {
   return (
