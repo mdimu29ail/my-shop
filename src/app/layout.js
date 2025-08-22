@@ -1,8 +1,9 @@
 'use client'; // Make this client if you want Navbar to use session
 import { Toaster } from 'react-hot-toast';
-import Navbar from '@/Components/NavBar';
+
 import './globals.css';
 import { SessionProvider } from 'next-auth/react';
+import Navbar from '@/components/navBar';
 
 export default function RootLayout({ children }) {
   return (
