@@ -67,7 +67,7 @@ export default function OrderPage() {
 
       if (res.ok) {
         toast.success('Order placed successfully!');
-        router.push('/');
+        router.push('/dashboard/orders');
       } else {
         toast.error('Failed to place order.');
       }

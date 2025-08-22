@@ -71,7 +71,7 @@ export default function Dashboard() {
       </aside>
 
       {/* Hamburger Menu for Mobile */}
-      <div className="md:hidden fixed top-4 left-4 z-60">
+      <div className="md:hidden fixed top-4 left-4 z-60 bg-white">
         <button
           onClick={() => setSidebarOpen(!sidebarOpen)}
           className="p-2 bg-orange-500  rounded"

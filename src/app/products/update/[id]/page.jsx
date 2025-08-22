@@ -86,7 +86,7 @@ export default function UpdateProduct() {
       const result = await res.json();
       if (res.ok) {
         Swal.fire('Success', result.message, 'success');
-        router.push('/my-products');
+        router.push('/myproducts');
       } else {
         Swal.fire('Error', result.message || 'Failed to update', 'error');
       }

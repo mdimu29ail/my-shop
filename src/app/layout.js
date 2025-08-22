@@ -8,7 +8,7 @@ import Navbar from '@/components/navBar';
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gray-800">
+      <body className="bg-white">
         <SessionProvider>
           <Navbar /> {/* Navbar now has access to session */}
           {children}

@@ -108,7 +108,7 @@ export default function MyProductsPage() {
                 </h2>
 
                 <p className="font-bold text-lg mt-1">
-                  ${product.current_price?.toFixed(2)}
+                  ${product.current_price}
                 </p>
               </div>
 

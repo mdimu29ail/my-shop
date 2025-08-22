@@ -85,8 +85,10 @@ export default function AddProduct() {
   };
 
   return (
-    <div className="p-8 rounded-2xl shadow-lg max-w-3xl mx-auto bg-base-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100">
-      <h2 className="text-2xl font-bold mb-6 text-center">Add Product</h2>
+    <div className="p-8 rounded-2xl max-w-3xl mx-auto bg-white shadow-2xl shadow-amber-300">
+      <h2 className="text-2xl text-orange-500 font-bold mb-6 text-center">
+        Add Product
+      </h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
