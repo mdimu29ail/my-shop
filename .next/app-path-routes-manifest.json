@@ -1,23 +1,14 @@
 {
   "/_not-found/page": "/_not-found",
   "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
-  "/api/login/route": "/api/login",
-  "/api/orders/[id]/route": "/api/orders/[id]",
   "/api/orders/route": "/api/orders",
-  "/api/products/[id]/route": "/api/products/[id]",
   "/api/products/route": "/api/products",
-  "/api/register/route": "/api/register",
   "/dashboard/add-product/page": "/dashboard/add-product",
   "/dashboard/orders/page": "/dashboard/orders",
   "/dashboard/page": "/dashboard",
   "/dashboard/users/page": "/dashboard/users",
   "/favicon.ico/route": "/favicon.ico",
-  "/login/page": "/login",
   "/myproducts/page": "/myproducts",
-  "/order/[id]/page": "/order/[id]",
   "/page": "/",
-  "/products/[id]/page": "/products/[id]",
-  "/products/page": "/products",
-  "/products/update/[id]/page": "/products/update/[id]",
-  "/register/page": "/register"
+  "/products/page": "/products"
 }

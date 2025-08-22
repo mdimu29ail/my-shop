@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   images: {
-    domains: ['i.ibb.co.com', 'example.com'],
+    // Allow specific domains
+    domains: ['i.ibb.co.com', 'i.ibb.co'],
+
+    // Allow Googleusercontent images
     remotePatterns: [
       {
         protocol: 'https',
@@ -10,8 +14,6 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
-
-    // আপনার external image host
   },
 };
 

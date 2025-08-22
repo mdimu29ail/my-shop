@@ -1,23 +1,14 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/login/route": "app/api/login/route.js",
-  "/api/orders/[id]/route": "app/api/orders/[id]/route.js",
   "/api/orders/route": "app/api/orders/route.js",
-  "/api/products/[id]/route": "app/api/products/[id]/route.js",
   "/api/products/route": "app/api/products/route.js",
-  "/api/register/route": "app/api/register/route.js",
   "/dashboard/add-product/page": "app/dashboard/add-product/page.js",
   "/dashboard/orders/page": "app/dashboard/orders/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/dashboard/users/page": "app/dashboard/users/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/login/page": "app/login/page.js",
   "/myproducts/page": "app/myproducts/page.js",
-  "/order/[id]/page": "app/order/[id]/page.js",
   "/page": "app/page.js",
-  "/products/[id]/page": "app/products/[id]/page.js",
-  "/products/page": "app/products/page.js",
-  "/products/update/[id]/page": "app/products/update/[id]/page.js",
-  "/register/page": "app/register/page.js"
+  "/products/page": "app/products/page.js"
 }

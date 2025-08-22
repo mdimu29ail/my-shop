@@ -103,7 +103,7 @@ export default async function ProductPage({ params }) {
 
         {/* Buy Button */}
         <Link
-          href={`/order/${product._id.toString()}`}
+          href={`/order/${product._id}`}
           className="mt-6 bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition text-center"
         >
           Buy Now
